@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f3e5d8;
+  font-family: 'Outfit', sans-serif;
+  line-height: 1.6;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding: 2rem;
+}
+
+.RecipeBox {
+  max-width: 660px;
+  width: 100%;
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 20px;
+  padding: 2rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+.imagebox > img {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+  margin-bottom: 1.5rem;
+}
+
+.text1 {
+  font-family: "Young Serif", serif;
+  font-size: 2.3rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+
+.text2 {
+  color: #5b5754;
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.prep-time-box {
+  background-color: #fff7fc;
+  border-radius: 15px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.text3 {
+  color: #6e3752;
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.prep-time-box ul,
+.prep-time-box1 ul {
+  padding-left: 1.2rem;
+}
+
+.prep-time-box li,
+.prep-time-box1 li {
+  margin-bottom: 0.5rem;
+  color: #594f51;
+  font-weight: 500;
+}
+
+.prep-time-box1 {
+  margin-bottom: 1.5rem;
+}
+
+.text4 {
+  font-family: "Young Serif", serif;
+  font-size: 1.4rem;
+  color: #7a493a;
+  margin-bottom: 1rem;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #e7e7e7;
+  margin: 2rem 0;
+}
+
+.instructions-section,
+.nutrition-section {
+  margin-top: 2rem;
+}
+
+.section-heading {
+  font-family: "Young Serif", serif;
+  font-size: 1.5rem;
+  color: #7b3f00;
+  margin-bottom: 1rem;
+}
+
+.instructions-list {
+  padding-left: 1.2rem;
+}
+
+.instructions-list li {
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+
+.instructions-list li strong {
+  color: #594f51;
+  font-weight: 600;
+}
+
+.nutrition-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+.nutrition-table td {
+  padding: 0.75rem 0;
+  border-bottom: 1px solid #e2e2e2;
+}
+
+.nutrition-table td:first-child {
+  color: #555;
+}
+
+.nutrition-table td:last-child {
+  font-weight: bold;
+  color: #7b3f00;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  body {
+    padding: 1rem;
+  }
+
+  .RecipeBox {
+    padding: 1.5rem;
+  }
+
+  .text1 {
+    font-size: 1.8rem;
+  }
+
+  .text2 {
+    font-size: 0.95rem;
+  }
+
+  .instructions-list li,
+  .prep-time-box li,
+  .prep-time-box1 li {
+    font-size: 0.95rem;
+  }
+
+  .text3, .text4, .section-heading {
+    font-size: 1.2rem;
+  }
+
+  .nutrition-table td {
+    font-size: 0.95rem;
+  }
+}
